@@ -13,7 +13,7 @@ body {
 }
 
 main {
-    height: 100%;
+    flex: 0.96 0 auto;
     flex-direction: column;
     display: flex;
     align-self: center;
@@ -120,8 +120,7 @@ main {
 @media (max-width: 610px) {
     main {
         height: auto;
-        justify-content: flex-end;
-        display: block;
+        justify-content: flex-start;
     }
     .container {
         margin: 40px;
@@ -155,8 +154,6 @@ main {
         border-radius: 0 0 10px 10px;
     }
 }
-
-@media 
 
 .attribution {
   font-size: 11px;
